@@ -1,0 +1,53 @@
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(255, 85, 0);
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+body {
+  background-image: url("./img/SobreMi/2024-09-18_20.34_edited.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  
+}
+
+h1 {
+  color: orange;
+  max-width: 800px;
+  font-size: 2rem;
+}
+
+section p:first-of-type {
+  color: red;
+  font: 20px Arial;
+}
+
+section p:nth-of-type(2) {
+  color: blue;
+    font: 20px Arial;
+}
+
+section p:nth-of-type(3) {
+  color: red;
+    font: 20px Arial;
+}
